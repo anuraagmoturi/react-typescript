@@ -1,6 +1,6 @@
 import ReactDom from 'react-dom';
 // import { GuestList } from './state/GuestList';
-import UserSearch from './classes/UserSearch';
+import UserSearch from './refs/UserSearch';
 // import EventComponent from './events/EventComponent';
 
 const users = [
@@ -11,7 +11,7 @@ const users = [
 
 const App = () => {
   return <div>
-    <UserSearch users={users} />
+    <UserSearch />
   </div>
 }
 
